@@ -327,7 +327,7 @@
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include/";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -350,7 +350,7 @@
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/include/";
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
