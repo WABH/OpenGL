@@ -8,7 +8,6 @@
 
 /* Begin PBXBuildFile section */
 		BFCEFCAD24AACED00096AE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCEFCAC24AACED00096AE8D /* Assets.xcassets */; };
-		BFCEFCB024AACED00096AE8D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BFCEFCAE24AACED00096AE8D /* Main.storyboard */; };
 		BFCEFCBC24AACEFA0096AE8D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */; };
 		BFCEFCBE24AACF0E0096AE8D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */; };
 		BFCEFCD524AACFE70096AE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCEFCD424AACFE70096AE8D /* main.cpp */; };
@@ -18,7 +17,6 @@
 /* Begin PBXFileReference section */
 		BFCEFCA324AACECF0096AE8D /* OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		BFCEFCAC24AACED00096AE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFCEFCAF24AACED00096AE8D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		BFCEFCB124AACED00096AE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		BFCEFCB424AACED00096AE8D /* OpenGL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL.entitlements; sourceTree = "<group>"; };
 		BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
@@ -77,7 +75,6 @@
 			children = (
 				BFCEFCC024AACF4E0096AE8D /* include */,
 				BFCEFCAC24AACED00096AE8D /* Assets.xcassets */,
-				BFCEFCAE24AACED00096AE8D /* Main.storyboard */,
 				BFCEFCD424AACFE70096AE8D /* main.cpp */,
 				BFCEFCB124AACED00096AE8D /* Info.plist */,
 				BFCEFCB424AACED00096AE8D /* OpenGL.entitlements */,
@@ -182,7 +179,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCEFCAD24AACED00096AE8D /* Assets.xcassets in Resources */,
-				BFCEFCB024AACED00096AE8D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -198,17 +194,6 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
-
-/* Begin PBXVariantGroup section */
-		BFCEFCAE24AACED00096AE8D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				BFCEFCAF24AACED00096AE8D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		BFCEFCB524AACED00096AE8D /* Debug */ = {
