@@ -180,7 +180,7 @@ class GLFrame
 
 
        ////////////////////////////////////////////////////////////////////////
-       // Assemble the camera matrix
+       // Assemble the Camera matrix
         void GetCameraMatrix(M3DMatrix44f m, bool bRotationOnly = false)
             {
             M3DVector3f x, z;

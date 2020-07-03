@@ -7,130 +7,91 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		BFCEFCAD24AACED00096AE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCEFCAC24AACED00096AE8D /* Assets.xcassets */; };
-		BFCEFCBC24AACEFA0096AE8D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */; };
-		BFCEFCBE24AACF0E0096AE8D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */; };
-		BFCEFCD524AACFE70096AE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCEFCD424AACFE70096AE8D /* main.cpp */; };
-		BFCEFCD724AAD3B70096AE8D /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCD624AAD3B70096AE8D /* libGLTools.a */; };
+		B38BC52E885DB4418BD5B5A9 /* Pods_OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78FA43A5FFCE8D2AF7555287 /* Pods_OpenGL.framework */; };
+		BFCEFD5124AF1A180096AE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCEFD5024AF1A180096AE8D /* Assets.xcassets */; };
+		BFCEFD5F24AF21FC0096AE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCEFD5E24AF21FC0096AE8D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		BFCEFCA324AACECF0096AE8D /* OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFCEFCAC24AACED00096AE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		BFCEFCB124AACED00096AE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BFCEFCB424AACED00096AE8D /* OpenGL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL.entitlements; sourceTree = "<group>"; };
-		BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
-		BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLUT.framework; path = System/Library/Frameworks/GLUT.framework; sourceTree = SDKROOT; };
-		BFCEFCC124AACF4E0096AE8D /* GLBatchBase.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatchBase.h; sourceTree = "<group>"; };
-		BFCEFCC224AACF4E0096AE8D /* math3d.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = math3d.h; sourceTree = "<group>"; };
-		BFCEFCC324AACF4E0096AE8D /* GLTriangleBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTriangleBatch.h; sourceTree = "<group>"; };
-		BFCEFCC424AACF4E0096AE8D /* GLBatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLBatch.h; sourceTree = "<group>"; };
-		BFCEFCC524AACF4E0096AE8D /* GLMatrixStack.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLMatrixStack.h; sourceTree = "<group>"; };
-		BFCEFCC624AACF4E0096AE8D /* GLFrame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrame.h; sourceTree = "<group>"; };
-		BFCEFCC724AACF4E0096AE8D /* GLFrustum.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLFrustum.h; sourceTree = "<group>"; };
-		BFCEFCC824AACF4E0096AE8D /* GLGeometryTransform.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLGeometryTransform.h; sourceTree = "<group>"; };
-		BFCEFCC924AACF4E0096AE8D /* GLShaderManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLShaderManager.h; sourceTree = "<group>"; };
-		BFCEFCCA24AACF4E0096AE8D /* StopWatch.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = StopWatch.h; sourceTree = "<group>"; };
-		BFCEFCCC24AACF4E0096AE8D /* glxew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glxew.h; sourceTree = "<group>"; };
-		BFCEFCCD24AACF4E0096AE8D /* wglew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = wglew.h; sourceTree = "<group>"; };
-		BFCEFCCE24AACF4E0096AE8D /* glew.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = glew.h; sourceTree = "<group>"; };
-		BFCEFCCF24AACF4E0096AE8D /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
-		BFCEFCD424AACFE70096AE8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
-		BFCEFCD624AAD3B70096AE8D /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		6F957E515C124DDF7ADFDE55 /* Pods-OpenGL.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL.debug.xcconfig"; path = "Target Support Files/Pods-OpenGL/Pods-OpenGL.debug.xcconfig"; sourceTree = "<group>"; };
+		78FA43A5FFCE8D2AF7555287 /* Pods_OpenGL.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_OpenGL.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A98F5DAEC4F4D66D7EB2A465 /* Pods-OpenGL.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-OpenGL.release.xcconfig"; path = "Target Support Files/Pods-OpenGL/Pods-OpenGL.release.xcconfig"; sourceTree = "<group>"; };
+		BFCEFD4724AF1A170096AE8D /* OpenGL.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = OpenGL.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCEFD5024AF1A180096AE8D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BFCEFD5524AF1A180096AE8D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BFCEFD5824AF1A180096AE8D /* OpenGL.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = OpenGL.entitlements; sourceTree = "<group>"; };
+		BFCEFD5E24AF21FC0096AE8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		BFCEFCA024AACECF0096AE8D /* Frameworks */ = {
+		BFCEFD4424AF1A170096AE8D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCEFCD724AAD3B70096AE8D /* libGLTools.a in Frameworks */,
-				BFCEFCBE24AACF0E0096AE8D /* GLUT.framework in Frameworks */,
-				BFCEFCBC24AACEFA0096AE8D /* OpenGL.framework in Frameworks */,
+				B38BC52E885DB4418BD5B5A9 /* Pods_OpenGL.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		BFCEFC9A24AACECF0096AE8D = {
+		424472CF0F86E0B0B6B96BD7 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				BFCEFCA524AACECF0096AE8D /* OpenGL */,
-				BFCEFCA424AACECF0096AE8D /* Products */,
-				BFCEFCBA24AACEFA0096AE8D /* Frameworks */,
-			);
-			sourceTree = "<group>";
-		};
-		BFCEFCA424AACECF0096AE8D /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEFCA324AACECF0096AE8D /* OpenGL.app */,
-			);
-			name = Products;
-			sourceTree = "<group>";
-		};
-		BFCEFCA524AACECF0096AE8D /* OpenGL */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEFCC024AACF4E0096AE8D /* include */,
-				BFCEFCAC24AACED00096AE8D /* Assets.xcassets */,
-				BFCEFCD424AACFE70096AE8D /* main.cpp */,
-				BFCEFCB124AACED00096AE8D /* Info.plist */,
-				BFCEFCB424AACED00096AE8D /* OpenGL.entitlements */,
-			);
-			path = OpenGL;
-			sourceTree = "<group>";
-		};
-		BFCEFCBA24AACEFA0096AE8D /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				BFCEFCD624AAD3B70096AE8D /* libGLTools.a */,
-				BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */,
-				BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */,
+				78FA43A5FFCE8D2AF7555287 /* Pods_OpenGL.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		BFCEFCC024AACF4E0096AE8D /* include */ = {
+		851405C6CACCD769E137EC5F /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				BFCEFCC124AACF4E0096AE8D /* GLBatchBase.h */,
-				BFCEFCC224AACF4E0096AE8D /* math3d.h */,
-				BFCEFCC324AACF4E0096AE8D /* GLTriangleBatch.h */,
-				BFCEFCC424AACF4E0096AE8D /* GLBatch.h */,
-				BFCEFCC524AACF4E0096AE8D /* GLMatrixStack.h */,
-				BFCEFCC624AACF4E0096AE8D /* GLFrame.h */,
-				BFCEFCC724AACF4E0096AE8D /* GLFrustum.h */,
-				BFCEFCC824AACF4E0096AE8D /* GLGeometryTransform.h */,
-				BFCEFCC924AACF4E0096AE8D /* GLShaderManager.h */,
-				BFCEFCCA24AACF4E0096AE8D /* StopWatch.h */,
-				BFCEFCCB24AACF4E0096AE8D /* GL */,
-				BFCEFCCF24AACF4E0096AE8D /* GLTools.h */,
+				6F957E515C124DDF7ADFDE55 /* Pods-OpenGL.debug.xcconfig */,
+				A98F5DAEC4F4D66D7EB2A465 /* Pods-OpenGL.release.xcconfig */,
 			);
-			path = include;
+			path = Pods;
 			sourceTree = "<group>";
 		};
-		BFCEFCCB24AACF4E0096AE8D /* GL */ = {
+		BFCEFD3E24AF1A170096AE8D = {
 			isa = PBXGroup;
 			children = (
-				BFCEFCCC24AACF4E0096AE8D /* glxew.h */,
-				BFCEFCCD24AACF4E0096AE8D /* wglew.h */,
-				BFCEFCCE24AACF4E0096AE8D /* glew.h */,
+				BFCEFD4924AF1A170096AE8D /* OpenGL */,
+				BFCEFD4824AF1A170096AE8D /* Products */,
+				851405C6CACCD769E137EC5F /* Pods */,
+				424472CF0F86E0B0B6B96BD7 /* Frameworks */,
 			);
-			path = GL;
+			sourceTree = "<group>";
+		};
+		BFCEFD4824AF1A170096AE8D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFCEFD4724AF1A170096AE8D /* OpenGL.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BFCEFD4924AF1A170096AE8D /* OpenGL */ = {
+			isa = PBXGroup;
+			children = (
+				BFCEFD5024AF1A180096AE8D /* Assets.xcassets */,
+				BFCEFD5E24AF21FC0096AE8D /* main.cpp */,
+				BFCEFD5524AF1A180096AE8D /* Info.plist */,
+				BFCEFD5824AF1A180096AE8D /* OpenGL.entitlements */,
+			);
+			path = OpenGL;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		BFCEFCA224AACECF0096AE8D /* OpenGL */ = {
+		BFCEFD4624AF1A170096AE8D /* OpenGL */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = BFCEFCB724AACED00096AE8D /* Build configuration list for PBXNativeTarget "OpenGL" */;
+			buildConfigurationList = BFCEFD5B24AF1A180096AE8D /* Build configuration list for PBXNativeTarget "OpenGL" */;
 			buildPhases = (
-				BFCEFC9F24AACECF0096AE8D /* Sources */,
-				BFCEFCA024AACECF0096AE8D /* Frameworks */,
-				BFCEFCA124AACECF0096AE8D /* Resources */,
+				64002CBB83EB8B68B302C9FB /* [CP] Check Pods Manifest.lock */,
+				BFCEFD4324AF1A170096AE8D /* Sources */,
+				BFCEFD4424AF1A170096AE8D /* Frameworks */,
+				BFCEFD4524AF1A170096AE8D /* Resources */,
 			);
 			buildRules = (
 			);
@@ -138,24 +99,24 @@
 			);
 			name = OpenGL;
 			productName = OpenGL;
-			productReference = BFCEFCA324AACECF0096AE8D /* OpenGL.app */;
+			productReference = BFCEFD4724AF1A170096AE8D /* OpenGL.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		BFCEFC9B24AACECF0096AE8D /* Project object */ = {
+		BFCEFD3F24AF1A170096AE8D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 1120;
 				ORGANIZATIONNAME = super;
 				TargetAttributes = {
-					BFCEFCA224AACECF0096AE8D = {
+					BFCEFD4624AF1A170096AE8D = {
 						CreatedOnToolsVersion = 11.2.1;
 					};
 				};
 			};
-			buildConfigurationList = BFCEFC9E24AACECF0096AE8D /* Build configuration list for PBXProject "OpenGL" */;
+			buildConfigurationList = BFCEFD4224AF1A170096AE8D /* Build configuration list for PBXProject "OpenGL" */;
 			compatibilityVersion = "Xcode 9.3";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -163,40 +124,65 @@
 				en,
 				Base,
 			);
-			mainGroup = BFCEFC9A24AACECF0096AE8D;
-			productRefGroup = BFCEFCA424AACECF0096AE8D /* Products */;
+			mainGroup = BFCEFD3E24AF1A170096AE8D;
+			productRefGroup = BFCEFD4824AF1A170096AE8D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				BFCEFCA224AACECF0096AE8D /* OpenGL */,
+				BFCEFD4624AF1A170096AE8D /* OpenGL */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		BFCEFCA124AACECF0096AE8D /* Resources */ = {
+		BFCEFD4524AF1A170096AE8D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCEFCAD24AACED00096AE8D /* Assets.xcassets in Resources */,
+				BFCEFD5124AF1A180096AE8D /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		64002CBB83EB8B68B302C9FB /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-OpenGL-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
-		BFCEFC9F24AACECF0096AE8D /* Sources */ = {
+		BFCEFD4324AF1A170096AE8D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				BFCEFCD524AACFE70096AE8D /* main.cpp in Sources */,
+				BFCEFD5F24AF21FC0096AE8D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
-		BFCEFCB524AACED00096AE8D /* Debug */ = {
+		BFCEFD5924AF1A180096AE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -254,7 +240,7 @@
 			};
 			name = Debug;
 		};
-		BFCEFCB624AACED00096AE8D /* Release */ = {
+		BFCEFD5A24AF1A180096AE8D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -305,48 +291,38 @@
 			};
 			name = Release;
 		};
-		BFCEFCB824AACED00096AE8D /* Debug */ = {
+		BFCEFD5C24AF1A180096AE8D /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6F957E515C124DDF7ADFDE55 /* Pods-OpenGL.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OpenGL",
-					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shoujun.xu.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
 			name = Debug;
 		};
-		BFCEFCB924AACED00096AE8D /* Release */ = {
+		BFCEFD5D24AF1A180096AE8D /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A98F5DAEC4F4D66D7EB2A465 /* Pods-OpenGL.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
-				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
 				INFOPLIST_FILE = OpenGL/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/../Frameworks",
-				);
-				LIBRARY_SEARCH_PATHS = (
-					"$(inherited)",
-					"$(PROJECT_DIR)/OpenGL",
-					"$(PROJECT_DIR)",
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = shoujun.xu.OpenGL;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -356,25 +332,25 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		BFCEFC9E24AACECF0096AE8D /* Build configuration list for PBXProject "OpenGL" */ = {
+		BFCEFD4224AF1A170096AE8D /* Build configuration list for PBXProject "OpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCEFCB524AACED00096AE8D /* Debug */,
-				BFCEFCB624AACED00096AE8D /* Release */,
+				BFCEFD5924AF1A180096AE8D /* Debug */,
+				BFCEFD5A24AF1A180096AE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BFCEFCB724AACED00096AE8D /* Build configuration list for PBXNativeTarget "OpenGL" */ = {
+		BFCEFD5B24AF1A180096AE8D /* Build configuration list for PBXNativeTarget "OpenGL" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				BFCEFCB824AACED00096AE8D /* Debug */,
-				BFCEFCB924AACED00096AE8D /* Release */,
+				BFCEFD5C24AF1A180096AE8D /* Debug */,
+				BFCEFD5D24AF1A180096AE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = BFCEFC9B24AACECF0096AE8D /* Project object */;
+	rootObject = BFCEFD3F24AF1A170096AE8D /* Project object */;
 }
