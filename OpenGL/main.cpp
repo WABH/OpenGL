@@ -210,7 +210,7 @@ int main(int argc,char *argv[])
     //GLUT窗口大小、窗口标题
     //glutInitWindowSize(600, 800);
     glutInitWindowSize(500, 500);
-    glutCreateWindow("Triangle");
+    glutCreateWindow("正方形--坐标移动");
     
     /*
      GLUT 内部运行一个本地消息循环，拦截适当的消息。然后调用我们不同时间注册的回调函数。我们一共注册2个回调函数：
