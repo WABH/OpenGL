@@ -12,6 +12,11 @@
 		BFCEFCBE24AACF0E0096AE8D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */; };
 		BFCEFCD524AACFE70096AE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCEFCD424AACFE70096AE8D /* main.cpp */; };
 		BFCEFCD724AAD3B70096AE8D /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCD624AAD3B70096AE8D /* libGLTools.a */; };
+		BFCEFD9024B314B80096AE8D /* libGLTools.a in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCD624AAD3B70096AE8D /* libGLTools.a */; };
+		BFCEFD9124B314B80096AE8D /* GLUT.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBD24AACF0E0096AE8D /* GLUT.framework */; };
+		BFCEFD9224B314B80096AE8D /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFCEFCBB24AACEFA0096AE8D /* OpenGL.framework */; };
+		BFCEFD9424B314B80096AE8D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BFCEFCAC24AACED00096AE8D /* Assets.xcassets */; };
+		BFCEFD9A24B314F70096AE8D /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = BFCEFD8A24B314A00096AE8D /* main.cpp */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +42,9 @@
 		BFCEFCCF24AACF4E0096AE8D /* GLTools.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GLTools.h; sourceTree = "<group>"; };
 		BFCEFCD424AACFE70096AE8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
 		BFCEFCD624AAD3B70096AE8D /* libGLTools.a */ = {isa = PBXFileReference; lastKnownFileType = archive.ar; path = libGLTools.a; sourceTree = "<group>"; };
+		BFCEFD8A24B314A00096AE8D /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		BFCEFD9824B314B80096AE8D /* OpenGL Move.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL Move.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BFCEFD9924B314B80096AE8D /* OpenGL Move-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; name = "OpenGL Move-Info.plist"; path = "/Users/super/Documents/Customer/OpenGL/OpenGL Move-Info.plist"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -50,6 +58,16 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFCEFD8F24B314B80096AE8D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCEFD9024B314B80096AE8D /* libGLTools.a in Frameworks */,
+				BFCEFD9124B314B80096AE8D /* GLUT.framework in Frameworks */,
+				BFCEFD9224B314B80096AE8D /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -59,6 +77,7 @@
 				BFCEFCA524AACECF0096AE8D /* OpenGL */,
 				BFCEFCA424AACECF0096AE8D /* Products */,
 				BFCEFCBA24AACEFA0096AE8D /* Frameworks */,
+				BFCEFD9924B314B80096AE8D /* OpenGL Move-Info.plist */,
 			);
 			sourceTree = "<group>";
 		};
@@ -66,6 +85,7 @@
 			isa = PBXGroup;
 			children = (
 				BFCEFCA324AACECF0096AE8D /* OpenGL.app */,
+				BFCEFD9824B314B80096AE8D /* OpenGL Move.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -77,6 +97,7 @@
 				BFCEFCAC24AACED00096AE8D /* Assets.xcassets */,
 				BFCEFCD424AACFE70096AE8D /* main.cpp */,
 				BFCEFCB124AACED00096AE8D /* Info.plist */,
+				BFCEFD8924B314790096AE8D /* Move */,
 				BFCEFCB424AACED00096AE8D /* OpenGL.entitlements */,
 			);
 			path = OpenGL;
@@ -121,6 +142,14 @@
 			path = GL;
 			sourceTree = "<group>";
 		};
+		BFCEFD8924B314790096AE8D /* Move */ = {
+			isa = PBXGroup;
+			children = (
+				BFCEFD8A24B314A00096AE8D /* main.cpp */,
+			);
+			path = Move;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +168,23 @@
 			name = OpenGL;
 			productName = OpenGL;
 			productReference = BFCEFCA324AACECF0096AE8D /* OpenGL.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BFCEFD8C24B314B80096AE8D /* OpenGL Move */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BFCEFD9524B314B80096AE8D /* Build configuration list for PBXNativeTarget "OpenGL Move" */;
+			buildPhases = (
+				BFCEFD8D24B314B80096AE8D /* Sources */,
+				BFCEFD8F24B314B80096AE8D /* Frameworks */,
+				BFCEFD9324B314B80096AE8D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL Move";
+			productName = OpenGL;
+			productReference = BFCEFD9824B314B80096AE8D /* OpenGL Move.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -169,6 +215,7 @@
 			projectRoot = "";
 			targets = (
 				BFCEFCA224AACECF0096AE8D /* OpenGL */,
+				BFCEFD8C24B314B80096AE8D /* OpenGL Move */,
 			);
 		};
 /* End PBXProject section */
@@ -182,6 +229,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		BFCEFD9324B314B80096AE8D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCEFD9424B314B80096AE8D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -190,6 +245,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				BFCEFCD524AACFE70096AE8D /* main.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFCEFD8D24B314B80096AE8D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BFCEFD9A24B314F70096AE8D /* main.cpp in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -353,6 +416,54 @@
 			};
 			name = Release;
 		};
+		BFCEFD9624B314B80096AE8D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
+				INFOPLIST_FILE = "OpenGL Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shoujun.xu.OpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BFCEFD9724B314B80096AE8D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = OpenGL/OpenGL.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				GCC_WARN_ABOUT_DEPRECATED_FUNCTIONS = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/OpenGL/include";
+				INFOPLIST_FILE = "OpenGL Move-Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/OpenGL",
+					"$(PROJECT_DIR)",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = shoujun.xu.OpenGL;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -370,6 +481,15 @@
 			buildConfigurations = (
 				BFCEFCB824AACED00096AE8D /* Debug */,
 				BFCEFCB924AACED00096AE8D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BFCEFD9524B314B80096AE8D /* Build configuration list for PBXNativeTarget "OpenGL Move" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BFCEFD9624B314B80096AE8D /* Debug */,
+				BFCEFD9724B314B80096AE8D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
